@@ -1,0 +1,247 @@
+{
+  "brand": "KHẾ ƯỚC RỒNG",
+  "game_id": "keuocrong",
+  "skin": "gold",
+  "mode": "files",
+  "tabs": [
+    "Chiến đấu",
+    "Đặc quyền AI",
+    "Vây Bắt Ma Long",
+    "Ma Long Tận Thế",
+    "Ma Vương Hải Vực",
+    "Lưu Tinh Bí Cảnh",
+    "Tiện ích"
+  ],
+  "features": [
+    {
+      "type": "hero",
+      "key": "speed",
+      "tab": "Chiến đấu",
+      "label": "Tốc độ (chạy + đánh PvE)",
+      "labels": [
+        "Gốc",
+        "×2",
+        "×4",
+        "×6",
+        "×10"
+      ],
+      "default": 0,
+      "mult": [
+        1,
+        2,
+        4,
+        6,
+        10
+      ],
+      "mult_file": "md_speed"
+    },
+    {
+      "type": "bool",
+      "key": "gift",
+      "tab": "Tiện ích",
+      "label": "Tự nhận lì xì & quà kết hôn",
+      "file": "md_gift",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "assist",
+      "tab": "Tiện ích",
+      "label": "Tự bấm Hỗ Trợ Nhanh trên chat",
+      "file": "md_assist",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "gtreasure",
+      "tab": "Tiện ích",
+      "label": "Đoạt Bảo Công Hội tự động",
+      "file": "md_gtreasure",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "dungluyen",
+      "tab": "Tiện ích",
+      "label": "Tự động dung luyện",
+      "file": "md_dungluyen",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "quiz",
+      "tab": "Tiện ích",
+      "label": "Tự động Hỏi Đáp Hàng Ngày",
+      "file": "md_quiz",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "royal",
+      "tab": "Chiến đấu",
+      "label": "Mở khoá Tước Vị Hoàng Gia",
+      "file": "md_royal",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "ai",
+      "tab": "Đặc quyền AI",
+      "label": "Mở khoá Tự Động Thách Đấu",
+      "file": "md_ai",
+      "default": false
+    },
+    {
+      "type": "action",
+      "key": "aigo",
+      "tab": "Đặc quyền AI",
+      "label": "Vào sự kiện ngay",
+      "button": "VÀO NGAY",
+      "file": "md_aigo"
+    },
+    {
+      "type": "list",
+      "key": "pick100",
+      "tab": "Vây Bắt Ma Long",
+      "label": "Danh sách quan tâm",
+      "src": "kurb100.json",
+      "out": "kurp100.json"
+    },
+    {
+      "type": "bool",
+      "key": "bWorld",
+      "tab": "Vây Bắt Ma Long",
+      "label": "Khiêu chiến tự động đã chú ý Ma Vương",
+      "file": "md_bWorld",
+      "default": false
+    },
+    {
+      "type": "list",
+      "key": "pick156",
+      "tab": "Ma Long Tận Thế",
+      "label": "Danh sách quan tâm",
+      "src": "kurb156.json",
+      "out": "kurp156.json"
+    },
+    {
+      "type": "bool",
+      "key": "bDimension",
+      "tab": "Ma Long Tận Thế",
+      "label": "Khiêu chiến tự động đã chú ý Ma Vương",
+      "file": "md_bDimension",
+      "default": false
+    },
+    {
+      "type": "list",
+      "key": "pick155",
+      "tab": "Ma Vương Hải Vực",
+      "label": "Danh sách quan tâm",
+      "src": "kurb155.json",
+      "out": "kurp155.json"
+    },
+    {
+      "type": "bool",
+      "key": "bSea",
+      "tab": "Ma Vương Hải Vực",
+      "label": "Khiêu chiến tự động đã chú ý Ma Vương",
+      "file": "md_bSea",
+      "default": false
+    },
+    {
+      "type": "list",
+      "key": "pick229",
+      "tab": "Lưu Tinh Bí Cảnh",
+      "label": "Danh sách quan tâm",
+      "src": "kurb229.json",
+      "out": "kurp229.json"
+    },
+    {
+      "type": "bool",
+      "key": "bMeteor",
+      "tab": "Lưu Tinh Bí Cảnh",
+      "label": "Khiêu chiến tự động đã chú ý Ma Vương",
+      "file": "md_bMeteor",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "a56",
+      "tab": "Đặc quyền AI",
+      "label": "Câu Cá",
+      "file": "md_a56",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "a270",
+      "tab": "Đặc quyền AI",
+      "label": "Đoàn Hữu Chiến Tuyến",
+      "file": "md_a270",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "a268",
+      "tab": "Đặc quyền AI",
+      "label": "Chiến Ma Vương",
+      "file": "md_a268",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "a269",
+      "tab": "Đặc quyền AI",
+      "label": "Đoàn Chiến Mạnh Nhất",
+      "file": "md_a269",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "a240",
+      "tab": "Đặc quyền AI",
+      "label": "Chiến Hài Di Tích",
+      "file": "md_a240",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "a234",
+      "tab": "Đặc quyền AI",
+      "label": "Cuồng Sa Loạn Đấu",
+      "file": "md_a234",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "a243",
+      "tab": "Đặc quyền AI",
+      "label": "Băng Hỏa Ca",
+      "file": "md_a243",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "a241",
+      "tab": "Đặc quyền AI",
+      "label": "Vũ Hội Hoàng Cung",
+      "file": "md_a241",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "a242",
+      "tab": "Đặc quyền AI",
+      "label": "Thách Đấu Trùm Cuối",
+      "file": "md_a242",
+      "default": false
+    },
+    {
+      "type": "bool",
+      "key": "a27",
+      "tab": "Đặc quyền AI",
+      "label": "Lôi Đài Cường Giả",
+      "file": "md_a27",
+      "default": false
+    }
+  ]
+}
